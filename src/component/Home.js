@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Row, Col, Card} from 'antd';
+import {Row, Card} from 'antd';
 import firebaseApp from '../utils/FirebaseApp';
 import {setLang, getLang} from '../utils';
 import Chatbox from './ChatBox';
@@ -47,17 +47,13 @@ class Home extends Component {
     render() {
         return (
             <Row>
-                <Col span={6}/>
-                <Col span={12}>
-                    <Logo/>
-                    <Card className="content">
-                        <Chatbox
-                            currentUser={this.state.user}
-                            currentGroupId={this.state.currentGroupId}
-                        />
-                    </Card>
-                </Col>
-                <Col span={6}/>
+                <Logo/>
+                <Card className="content">
+                    <Chatbox
+                        currentUser={this.state.user}
+                        currentGroupId={this.state.currentGroupId}
+                    />
+                </Card>
             </Row>
         )
     }

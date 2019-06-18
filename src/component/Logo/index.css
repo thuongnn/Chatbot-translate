@@ -29,12 +29,18 @@
 .logo .word:before {
     left: -4px;
     top: -6px;
-    border-top-color: #282828;
-    border-left-color: #282828;
+    border-top-color: #F2282828;
+    border-left-color: #F2282828;
 }
 .logo .word:after {
     right: -4px;
     bottom: 4px;
-    border-bottom-color: #282828;
-    border-right-color: #282828;
+    border-bottom-color: #F2282828;
+    border-right-color: #F2282828;
+}
+
+@media (max-width: 700px) {
+    .logo {
+        font: 40px 'Arial Narrow', sans-serif;/* I picked this font because it's the closest looking 'web safe' font http://cssfontstack.com/ */
+    }
 }
