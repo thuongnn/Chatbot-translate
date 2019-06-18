@@ -1,0 +1,47 @@
+.input-field-outerContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.input-field-container {
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+    padding: 5px 10px;
+}
+
+.input-field-container textarea.ant-input {
+    width: calc(100% - 32px);
+    border: none;
+    resize: none;
+}
+
+.input-field-container textarea.ant-input:focus {
+    border-color: #ffffff;
+    outline: none;
+    box-shadow: none !important;
+}
+
+.input-field-container .ant-btn {
+    border: none;
+}
+
+.logout {
+    cursor: pointer;
+    position: absolute;
+    padding: 0 15px;
+    background: rgb(232, 66, 68);
+    border-color: rgb(232, 66, 68);
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    right: 0;
+    bottom: 0;
+    transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    touch-action: manipulation;
+}

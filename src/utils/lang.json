@@ -1,0 +1,21 @@
+{
+  "defaultLanguage": "vi-en",
+  "languages": [
+    {
+      "label": "Vietnamese",
+      "value": "vi-en"
+    },
+    {
+      "label": "English",
+      "value": "en-vi"
+    },
+    {
+      "label": "Chinese",
+      "value": "vi-zh"
+    },
+    {
+      "label": "Japanese",
+      "value": "vi-ja"
+    }
+  ]
+}
